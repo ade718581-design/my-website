@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Your Name | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="logo">Your Name</div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <section class="portfolio">
+    <h1>My Work</h1>
+    <div class="portfolio-grid">
+      <div class="portfolio-item">
+        <img src="images/project1.jpg" alt="Project One">
+        <h3>Project One</h3>
+        <p>A short description of this project.</p>
+      </div>
+      <div class="portfolio-item">
+        <img src="images/project2.jpg" alt="Project Two">
+        <h3>Project Two</h3>
+        <p>A short description of this project.</p>
+      </div>
+      <div class="portfolio-item">
+        <img src="images/project3.jpg" alt="Project Three">
+        <h3>Project Three</h3>
+        <p>A short description of this project.</p>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <p>&copy; 2026 Your Name. All rights reserved.</p>
+  </footer>
+</body>
+</html>
+.service-cards,
+.portfolio-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  padding: 40px;
+}
+ 
+.card,
+.portfolio-item {
+  background-color: #F3F1FA;
+  border-radius: 10px;
+  padding: 24px;
+  flex: 1 1 260px;
+}
+ 
+.portfolio-item img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 12px;
+}

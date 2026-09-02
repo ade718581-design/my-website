@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Your Name | About</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="logo">Your Name</div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <section class="about">
+    <div class="about-container">
+      <div class="about-photo">
+        <img src="images/profile.jpg" alt="Photo of Your Name">
+      </div>
+      <div class="about-text">
+        <h1>About Me</h1>
+        <p>Write two or three sentences about who you are, what
+           you're interested in, and what you're working on.</p>
+        <h2>My Skills</h2>
+        <ul>
+          <li>Skill one</li>
+          <li>Skill two</li>
+          <li>Skill three</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <p>&copy; 2026 Your Name. All rights reserved.</p>
+  </footer>
+</body>
+</html>
+.about-container {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  padding: 60px 40px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+ 
+.about-photo img {
+  width: 280px;
+  border-radius: 12px;
+}
+ 
+.about-text h1 {
+  margin-bottom: 15px;
+}
+ 
+.about-text ul {
+  margin-top: 10px;
+  padding-left: 20px;
+}
